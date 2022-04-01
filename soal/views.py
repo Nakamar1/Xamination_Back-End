@@ -222,7 +222,7 @@ def jawaban_ing(request):
 	salah = 0
 	if len(jawaban_user) >= 1:
 		for i in range(5):
-			if jawaban_user[i] == K_jawaban[i]:
+			if jawaban_user[i] == K_jawaban_ing[i]:
 				benar += 1
 			else:
 				salah += 1
