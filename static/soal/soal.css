@@ -1,0 +1,99 @@
+body{
+    background-color: #DABB6C;
+}
+
+.soalUtama{
+    background-color: #AF7C30;
+    text-align: center;
+    margin-left: 40px;
+    width: 96%;
+    border-radius: 17px;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.soalnya{
+    background-color: #FFFFFF61;
+    margin: auto auto 50px auto;
+    max-width: 1350px;
+    height: 269px;
+    left: 118px;
+    top: 243px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.input{
+    padding: 200px;
+    background-color: #C4C4C4;
+}
+
+label{
+    font-size: 20px;
+    padding: 20px 20px 20px 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+p{
+    font-size: 24px;
+    font-family: sans-serif;
+    color: white;
+}
+
+h1{
+    margin-top: 100px;
+    top: 124px;
+    padding-top: 70px;
+    font-family: sans-serif;
+    font-size: 36px;
+    color: white;
+}
+
+div .btn{
+    width: 135px;
+    height: 37px;
+    margin-left: 85%;
+    background-color: #C4C4C4;
+    font-weight: bold;
+    font-color: white;
+    border-radius: 20px;
+}
+
+div a button {
+    margin-top: 100px;
+}
+
+.contain_jawaban {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.contain_jawaban_diffrent {
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.pilihan_jawaban {
+    padding: 20px;
+}
+
+.pilihan_jawaban_diffrent {
+    width: 560px;
+    padding: 20px;
+}
+
+#up {
+    margin-bottom: 80px;
+}

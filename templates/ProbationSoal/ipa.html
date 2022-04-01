@@ -1,0 +1,156 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal</title>
+    <link rel="stylesheet" href="{% static 'soal/soal.css' %}">
+</head>
+<body>
+    <form method="POST">
+        {% csrf_token %}
+        <div class="soalUtama">
+            <h1>Soal 1</h1>
+            <div class="soalnya"><p>Percepatan merupakan salah satu besaran turunan yang diturunkan dari besaran pokok ....</p></div>
+
+            <div class="contain_jawaban">
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 1" value="a" id="1a">
+                    <label for="1a">panjang dan waktu</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 1" value="b" id="1b">
+                    <label for="1b">panjang dan suhu</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 1" value="c" id="1c">
+                    <label for="1c">massa dan waktu</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 1" value="d" id="1d">
+                    <label for="1d">massa dan suhu</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="soalUtama">
+            <h1>Soal 2</h1>
+            <div class="soalnya"><p>Perhatikan 4 kegiatan yang berkaitan dengan perubahan wujud berikut! <br />
+                (1) Air sirup disimpan oleh Satria ke dalam kulkas sehingga menjadi es. <br />
+                (2) Uap basil rebusan daun cengkeh diembunkan. <br />
+                (3) Mentega diletakkan pada wajan panas untuk menumis sayuran. <br />
+                (4) Harum kapur barus terciurn Siti ketika masuk ke kamar mandi. <br />
+                Jenis perubahan wujud yang melepaskan kalor pada kegiatan tersebut ditunjukkan pada</p></div>
+
+            <div class="contain_jawaban">
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 2" value="a" id="2a">
+                    <label for="2a">(1) dan (2)</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 2" value="b" id="2b">
+                    <label for="2b">(1) dan (3)</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 2" value="c" id="2c">
+                    <label for="2c">(2) dan (4)</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 2" value="d" id="2d">
+                    <label for="2d">(3) dan (4)</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="soalUtama">
+            <h1>Soal 3</h1>
+            <div class="soalnya"><p>Air dipanaskan dari suhu 20°C sampai mendidih bersuhu 100°C. Perubahan suhu tersebut pada pengukuran dengan termometer Fahrenheit sama dengan ....</p></div>
+
+            <div class="contain_jawaban">
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 3" value="a" id="3a">
+                    <label for="3a">80°F</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 3" value="b" id="3b">
+                    <label for="3b">112°F</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 3" value="c" id="3c">
+                    <label for="3c">114°F</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 3" value="d" id="3d">
+                    <label for="3d">176°F</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="soalUtama">
+            <h1>Soal 4</h1>
+            <div class="soalnya"><p>Perhatikan contoh peristiwa! <br />
+                (1) Kayu kering diubah menjadi kursi dan meja <br />
+                (2) Pagar besi yang berkarat <br />
+                (3) Kertas digunting menjadi potongan-potongan kecil <br />
+                (4) Buah-buahan dibiarkan berhari-hari menjadi busuk <br />
+                Perubahan fisika ditunjukkan oleh angka ....</p></div>
+
+            <div class="contain_jawaban">
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 4" value="a" id="4a">
+                    <label for="4a">(1) dan (2)</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 4" value="b" id="4b">
+                    <label for="4b">(1) dan (3)</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 4" value="c" id="4c">
+                    <label for="4c">(2) dan (3)</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 4" value="d" id="4d">
+                    <label for="4d">(3) dan (4)</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="soalUtama">
+            <h1>Soal 5</h1>
+            <div class="soalnya"><p>Kapal pengangkut barang beratnya dalam keadaan kosong 16.000 N, akan mengangkut
+                beban 
+                barang yang beratnya 14.000 N serta beberapa orang temasuk penumpang dan anak
+                buah kapal 
+                (ABK). Kapal dapat berlayar dengan aman jika volume lambung kapal yang
+                berada di bawah 
+                permukaan air 4,2 m3. Berat rata-rata satu orang penumpang 600 N. Massa
+                jenis air 1000 kg/m3 
+                dan g = 10 ml/s, jumlah orang yang dapat ikut kapal paling banyak
+                adalah .. ,.</p></div>
+
+            <div class="contain_jawaban" id="up">
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 5" value="a" id="5a">
+                    <label for="5a">10 orang</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 5" value="b" id="5b">
+                    <label for="5b">15 orang</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 5" value="c" id="5c">
+                    <label for="5c">20 orang</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 5" value="d" id="5d">
+                    <label for="5d">35 orang</label>
+                </div>
+            </div>
+            <input class="btn" type="submit" value="Submit">
+        </div>
+    </form>
+
+</body>
+</html>

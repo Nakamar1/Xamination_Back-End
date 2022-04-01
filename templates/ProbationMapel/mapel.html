@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilihan Mata Pelajaran</title>
+    <link rel="stylesheet" href="{% static 'MataPelajaran/matapelajaran.css'%}">
+</head>
+<body>
+    <a href="{% url 'home' %}"><img id="logo" src="{% static 'logo.png' %}"></a>
+    <div id="container_button">
+    <a href="{% url 'mapel_mtk' %}"><button class="dot" id="mtk"></button></a>
+    <a href="{% url 'mapel_ipa' %}"><button class="dot" id="ipa"></button></a>
+    <a href="{% url 'mapel_bindo' %}"><button class="dot" id="bindo"></button></a>
+    <a href="{% url 'mapel_bing' %}"><button class="dot" id="bing"></button></a>
+    </div>
+    
+    <div id="container_text">
+    <ul>
+        <li><a href="">Matematika</li></a>
+        <li><a href="">IPA</li></a>
+        <li><a href="">Indonesia</li></a>
+        <li><a href="">Inggris</li></a>
+    </ul>
+    </div>
+    </div>
+</body>
+</html>

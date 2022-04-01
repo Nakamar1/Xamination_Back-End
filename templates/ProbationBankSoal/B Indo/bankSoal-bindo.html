@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Soal</title>
+    <link rel="stylesheet" href="{% static 'BankSoal/bankSoal.css'%}">
+</head>
+<body>
+    <a href="{% url 'mapel' %}"><img id="logo" src="{% static 'logo.png'%}"></a>
+    <div class="container">
+        <a href="{% url 'soal_indo' %}"><span class="pilihan"><img src="{% static 'BankSoal/gambar/2019.png' %}"></span></a>
+        <span class="pilihan"><img src="{% static 'BankSoal/gambar/2018.png' %}"></span>
+        <span class="pilihan"><img src="{% static 'BankSoal/gambar/2017.png' %}"></span>
+        <span class="pilihan"><img src="{% static 'BankSoal/gambar/2016.png' %}"></span>
+        <span class="pilihan"><img src="{% static 'BankSoal/gambar/2015.png' %}"></span>
+        <span class="pilihan"><img src="{% static 'BankSoal/gambar/2014.png' %}"></span>
+    </div>
+</body>
+</html>

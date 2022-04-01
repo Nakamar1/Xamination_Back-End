@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+div {
+    width:100%;
+    position: absolute;
+    display: flex;
+    align-item: center;
+}
+
+li{
+    padding: 20px 15px;
+    align-item: center;
+    display: inline-block;
+    position: relative;
+}
+
+li a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 27px;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url("xamination.png");
+    background-size: cover;
+}
+
+
+li a:hover{
+    background-color: #111;
+}
+
+.kiri{
+    margin-left: 20px;
+}
+
+img{
+    width: 300px;
+    height: auto;
+    margin: 10px;
+}
+
+ul{
+    display: inline-block;
+    top: 200px;
+}
+

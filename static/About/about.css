@@ -1,0 +1,42 @@
+body{
+    background-color: #AF7C30;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    position: absolute;
+    width: 900px;
+    height: 130px;
+    left: 564px;
+    top: 300px;
+
+    font-family: Roboto, Sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+
+}
+
+.dot {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    left: 125px;
+    top: 200px
+}
+
+img {
+    width: 300px;
+    padding: 10px;
+}
+
+img#pp {
+    width: 100%;
+    padding: 0;
+}

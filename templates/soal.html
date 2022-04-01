@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Soal</title>
+</head>
+<body>
+	<form method="POST">
+		{% csrf_token %}
+		<h1>2+2</h1>
+		<input type="radio" name="soal_1" value="a">2
+		<input type="radio" name="soal_1" value="b">4
+		<input type="radio" name="soal_1" value="c">1
+		<input type="radio" name="soal_1" value="d">3
+		<br>
+		<br>
+		
+		<h1>5x5</h1>
+		<input type="radio" name="soal_2" value="a">10
+		<input type="radio" name="soal_2" value="b">11
+		<input type="radio" name="soal_2" value="c">40
+		<input type="radio" name="soal_2" value="d">25
+		<br>
+		<br>
+
+		<h1>9x0</h1>
+		<input type="radio" name="soal_3" value="a">1
+		<input type="radio" name="soal_3" value="b">9
+		<input type="radio" name="soal_3" value="c">0
+		<input type="radio" name="soal_3" value="d">10
+		<br>
+		<br>
+
+		<h1>8+4</h1>
+		<input type="radio" name="soal_4" value="a">12
+		<input type="radio" name="soal_4" value="b">5
+		<input type="radio" name="soal_4" value="c">16
+		<input type="radio" name="soal_4" value="d">9
+		<br>
+		<br>
+
+		<h1>5+4</h1>
+		<input type="radio" name="soal_5" value="a">8
+		<input type="radio" name="soal_5" value="b">9
+		<input type="radio" name="soal_5" value="c">4
+		<input type="radio" name="soal_5" value="d">5
+		<br>
+		<input type="submit" name="submit">
+	</form>
+</body>
+</html>

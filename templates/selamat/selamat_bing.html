@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'selamat/selamat.css' %}">
+    <title>Selamat!!!</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="isi">
+            <h1 style="font-size: 80px;">S E L A M A T</h1>
+            <h2 class="semangat">Telah menyelesaikan soal, tetap semangat dan terus <br /> berusaha yaa!!!!</h2>
+            <h2 class="hasil">Benar: {{jawaban_benar}}</h2>
+            <h2 class="hasil">Salah: {{jawaban_salah}}</h2>
+            <div id="quote">
+            <h3><i>"{{isi_quote}}"<br><span>{{orang_quote}}</span></i></h3>
+            </div>
+            <a class="btn" id="retry" href="{% url 'soal_ing' %}">Ulangi</a>
+            <a class="btn" id="return" href="{% url 'home' %}">Kembali</a>
+        </div>
+    </div>
+</body>
+
+</html>

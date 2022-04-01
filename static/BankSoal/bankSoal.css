@@ -1,0 +1,26 @@
+body{
+    background-color: #AF7C30;
+}
+
+.pilihan{
+    display: block;
+    width: 95%px;
+    height: 222px;
+    left: 75px;
+    top: 142px;
+    background-color: #C4C4C4;
+    margin: 50px;
+}
+
+.container{
+    text-align: center;
+}
+
+img#logo {
+    width: 300px;
+    height: auto;
+}
+
+img {
+    width: 100%;
+}

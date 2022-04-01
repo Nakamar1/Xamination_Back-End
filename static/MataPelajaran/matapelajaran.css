@@ -1,0 +1,55 @@
+body{
+    background-color: #DABB6C;
+    margin: 0;
+}
+
+.dot {
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    border-style: none;
+    margin-left: 106px;
+    margin-top: 250px;
+}
+
+div#container_button {
+    text-align: center;
+    justify-content: center;
+}
+
+li{
+    display: inline;
+    padding: 0 140px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+img#logo {
+    position: absolute;
+    width: 300px;
+    padding: 10px;
+}
+
+#mtk {
+    background-image: url(mtk.png);
+    background-size: cover;
+    margin-left: -50px;
+}
+
+#ipa {
+    background-image: url(ipa.png);
+    background-size: cover;
+}
+
+#bindo {
+    background-image: url(bindo.png);
+    background-size: cover;
+}
+
+#bing {
+    background-image: url(bing.png);
+    background-size: cover;
+}

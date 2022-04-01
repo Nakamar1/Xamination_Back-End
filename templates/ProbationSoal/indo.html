@@ -1,0 +1,154 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal</title>
+    <link rel="stylesheet" href="{% static 'soal/soal.css' %}">
+</head>
+<body>
+    <form method="POST">
+        {% csrf_token %}
+        <div class="soalUtama">
+            <h1>Soal 1</h1>
+            <div class="soalnya"><p>Cermati teks berikut! <br/><br><br>
+                Ampenan adalah sebuah kecamatan di Mataram, Nusa Tenggara Barat. Daerah ini dulu merupakan pusat kota di Pulau Lombok. Sebelah baratnya berbatasan dengan Selat Lombok yang ada di antara Pulau Bali dan Pulau Lombok. Di kecamatan ini terdapat kota tua karena dulu merupakan pelabuhan utama daerah Lombok.Kecamatan Ampenan memiliki kampung yang merupakan perwujudan berbagai suku bangsa di Indonesia sehingga masyarakatnva bersifat <i>heterogen</i>, tetapi rukun.
+                
+                <br><br> Makna kata bercetak miring pada teks tersebut adalah ....</p></div>
+            <div class="contain_jawaban">
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 1" value="a" id="1a">
+                    <label for="1a">bersatu padu</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 1" value="b" id="1b">
+                    <label for="1b">beraneka ragam</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 1" value="c" id="1c">
+                    <label for="1c">banyak jumlahnya</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 1" value="d" id="1d">
+                    <label for="1d">sama ragamnya</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="soalUtama">
+            <h1>Soal 2</h1>
+            <div class="soalnya"><p>Cara Membuat Lilin Aroma Terapi <br/>
+                (l) Panaskan lilin di atas wajan dengan api kecil dan sisihkan sumbunya. <br/>
+                (2) Anda dapat menambahkan parfum pada saat Jilin dipanaskan dengan hati-hati. <br/>
+                (3) Setelah lilin meleleh, masukkan ke dalam gelas bekas dan pasang sumbunya. <br/>
+                (4) [ ... ] <br/>
+                (5) Setelah lilin tercetak, panaskan bagian tepi lilin untuk ditempeli dengan kayu manis,
+                susun kayu manis sampai habis. <br/>
+                (6) Tunggu kering dan lilin siap digunakan. <br/>
+                Kalimat yang tepat untuk melengkapi bagian rumpang petunjuk tersebut adalah ...</p></div>
+            <div class="contain_jawaban_diffrent">
+                <div class="pilihan_jawaban_diffrent">
+                    <input class="input" type="radio" name="soal 2" value="a" id="2a">
+                    <label for="2a">Diamkan untuk beberapa waktu sampai benar-benar kering.</label>
+                </div>
+                <div class="pilihan_jawaban_diffrent">
+                    <input class="input" type="radio" name="soal 2" value="b" id="2b">
+                    <label for="2b">Cetak lilin dalam gelas bekas,jangan lupa sumbunya.</label>
+                </div>
+                <div class="pilihan_jawaban_diffrent">
+                    <input class="input" type="radio" name="soal 2" value="c" id="2c">
+                    <label for="2c">Tunggu beberapa saat hingga mengering, pecahkan gelas perlahan.</label>
+                </div>
+                <div class="pilihan_jawaban_diffrent">
+                    <input class="input" type="radio" name="soal 2" value="d" id="2d">
+                    <label for="2d">Setelah lilin dicetak segera pasang sumbunya, pecahkan gelas bekas tersebut.</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="soalUtama">
+            <h1>Soal 3</h1>
+            <div class="soalnya"><p>Cermati kalimat berikut!
+                Salah satu <i>destinasi</i> wisata terkenal di Batam adalah Jembatan Barelang.
+                Variasi yang dapat menggantikan kata bercetak miring pada kalimat tersebut adalah ....</p></div>
+            <div class="contain_jawaban">
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 3" value="a" id="3a">
+                    <label for="3a">tujuan</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 3" value="b" id="3b">
+                    <label for="3b">objek</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 3" value="c" id="3c">
+                    <label for="3c">daerah</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 3" value="d" id="3d">
+                    <label for="3d">pilihan</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="soalUtama">
+            <h1>Soal 4</h1>
+            <div class="soalnya"><p>Cermati kalimat berikut <br/>--------- <br/>
+                Rizal dikasih hadiah oleh temannya berupa jam pasir ketika ulang tahun.
+                Penggunaan kata pada kalimat tersebut tidak tepat karena ....</p></div>
+            <div class="contain_jawaban_diffrent">
+                <div class="pilihan_jawaban_diffrent">
+                    <input class="input" type="radio" name="soal 4" value="a" id="4a">
+                    <label for="4a">menggunakan kata kerja pasif</label>
+                </div>
+                <div class="pilihan_jawaban_diffrent">
+                    <input class="input" type="radio" name="soal 4" value="b" id="4b">
+                    <label for="4b">terpengaruh oleh bahasa jawa</label>
+                </div>
+                <div class="pilihan_jawaban_diffrent">
+                    <input class="input" type="radio" name="soal 4" value="c" id="4c">
+                    <label for="4c">menggunakan kata tidak baku</label>
+                </div>
+                <div class="pilihan_jawaban_diffrent">
+                    <input class="input" type="radio" name="soal 4" value="d" id="4d">
+                    <label for="4d">menempatkan imbuhan yang salah</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="soalUtama">
+            <h1>Soal 5</h1>
+            <div class="soalnya"><p>Cermati teks rumpang berikut! <br/>
+                -------------<br/>
+
+                Faktor cuaca adalah [ ... ] utama produksi garam nasional begitu minim selama setahun
+                terakhir. Hal lainnya yang menjadikan produksi garam di Indonesia relatif sedikit adalah
+                [ ... ] garam masih dilakukan secara tradisional. <br/>
+                
+                Kata bentukan yang tepat untuk melengkapi paragraf yang rumpang tersebut adalah ....</p></div>
+            <div class="contain_jawaban" id="up">
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 5" value="a" id="5a">
+                    <label for="5a">disebabkan, dibuat</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 5" value="b" id="5b">
+                    <label for="5b">menyebabkan, membuat</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 5" value="c" id="5c">
+                    <label for="5c">disebabkan, dibuatkan</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 5" value="d" id="5d">
+                    <label for="5d">penyebab, pembuatan</label>
+                </div>
+            </div>
+            <input class="btn" type="submit" value="Submit">
+        </div>
+    </form>
+
+</body>
+</html>

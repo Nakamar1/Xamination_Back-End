@@ -1,0 +1,182 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal</title>
+    <link rel="stylesheet" href="{% static 'soal/soal.css' %}">
+</head>
+<body>
+    <form method="POST">
+        {% csrf_token %}
+        <div class="soalUtama">
+            <h1>Soal 1</h1>
+            <div class="soalnya"><p>Read the following announcement for questions this number!<br />
+
+                Due to the long holiday during the great nine students having the try out, all seventh grade students have to complete their English homework from page 50 to 56.
+                
+                How many students having the try out?</p></div>
+
+            <div class="contain_jawaban">
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 1" value="a" id="1a">
+                    <label for="1a">5 students</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 1" value="b" id="1b">
+                    <label for="1b">7 students</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 1" value="c" id="1c">
+                    <label for="1c">9 students</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 1" value="d" id="1d">
+                    <label for="1d">10 students</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="soalUtama">
+            <h1>Soal 2</h1>
+            <div class="soalnya"><p>To: All member of class 7-F <br/>
+
+                Our classroom will join “The Cleanest Class Competition 2018” on Saturday, March 12th 2018. To prepare it, 
+                please all the member of the classroom gather at school on Sunday March 5th 2018 at 9 a.m to start
+                cleaning and decorating the classroom together.
+                
+                Please come on time. <br/>
+                --------------- <br/>
+                Chief,
+                Afif Saifuddien <br/>
+                The true statement based on the text above is…</p></div>
+
+            <div class="contain_jawaban_diffrent">
+                <div class="pilihan_jawaban_diffrent">
+                    <input class="input" type="radio" name="soal 2" value="a" id="2a">
+                    <label for="2a">The information is for the students.</label>
+                </div>
+                <div class="pilihan_jawaban_diffrent">
+                    <input class="input" type="radio" name="soal 2" value="b" id="2b">
+                    <label for="2b">The event will be held on 12 March.</label>
+                </div>
+                <div class="pilihan_jawaban_diffrent">
+                    <input class="input" type="radio" name="soal 2" value="c" id="2c">
+                    <label for="2c">The place of the competition is in the auditorium.</label>
+                </div>
+                <div class="pilihan_jawaban_diffrent">
+                    <input class="input" type="radio" name="soal 2" value="d" id="2d">
+                    <label for="2d">The writer is a student.</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="soalUtama">
+            <h1>Soal 3</h1>
+            <div class="soalnya"><p>Pink Beach <br/>
+                ------------------------- <br/>
+
+                Pink Beach or Pantai Merah Muda is one of the beaches in Komodo Island, East Nusa Tenggara. The beach is called Pink Beach because the sand beach is pink. The pink color of its beach is a mixture of white sand beach colors mixed with crushed coral, shells, calcium carbonate from marine invertebrates that are very small, and also Foraminifera, microscopic amoeba that has a red body shell.
+                
+                At Pink Beach, there are so many marine organisms. No fewer than 1,000 species of fish, 260 species of coral, and 70 species of sponge can be found here. Having so much marine life, this place is a proper spot for snorkeling and diving for sea sports lovers.
+                
+                (Source: http://www.jagoanbahasainggris.com/) <br/>
+        
+                
+                The beach is called Pink Beach because the sand beach is pink.
+                The synonym of the word “called” is….</p></div>
+
+            <div class="contain_jawaban">
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 3" value="a" id="3a">
+                    <label for="3a">Given</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 3" value="b" id="3b">
+                    <label for="3b">Named</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 3" value="c" id="3c">
+                    <label for="3c">Based</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 3" value="d" id="3d">
+                    <label for="3d">Related</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="soalUtama">
+            <h1>Soal 4</h1>
+            <div class="soalnya"><p>Read the following text for this questions! <br/>
+
+                My House is divided into two floors. On downstairs, I have all the important parts of the house such as the kitchen, bathrooms, storage room and parking garage. On upstairs I have one room where I keep the washer and dryer and one big terrace.
+                
+                Downstairs, the floor is divided in eight rooms, four of them are bedrooms, other two are bathrooms and then one kitchen and one dining room.
+                
+                In my bedroom, I have a lot of things inside, such as a television, a playstation 3, and many trophies. In my sister's bedroom, there is a computer and in the other two bedrooms are for my parent and my other sister.
+                
+                Normally we eat in everywhere we want, but on Sunday we eat together in the dining room. I really love my house, the place where we could share everything together.
+                
+                (Source: www.jagoanbahasainggris.com) <br/>
+                
+                The main idea of the first paragraph is…</p></div>
+
+            <div class="contain_jawaban_diffrent">
+                <div class="pilihan_jawaban_diffrent">
+                    <input class="input" type="radio" name="soal 4" value="a" id="4a">
+                    <label for="4a">Bedroom is the important room in my house</label>
+                </div>
+                <div class="pilihan_jawaban_diffrent">
+                    <input class="input" type="radio" name="soal 4" value="b" id="4b">
+                    <label for="4b">My house is divided into two floors</label>
+                </div>
+                <div class="pilihan_jawaban_diffrent">
+                    <input class="input" type="radio" name="soal 4" value="c" id="4c">
+                    <label for="4c">There is a computer in my sister's room</label>
+                </div>
+                <div class="pilihan_jawaban_diffrent">
+                    <input class="input" type="radio" name="soal 4" value="d" id="4d">
+                    <label for="4d">On upstair there is a kitchen</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="soalUtama">
+            <h1>Soal 5</h1>
+            <div class="soalnya"><p>Have you ever wondered how beautiful Japanese scenes are? Most of them are seen and dominated by the beauty cherry blossom. Cherry blossom has scientific name as Genus Prenus. It has been called as Sakura in Japan. Cherry blossom belongs to the Rosacea family.
+
+                Now days, Cherry blossom is seen in some varieties such as; Yama Zakura, Oshima Sakura, America Sakura and many other types.
+                
+                The main characteristic of cherry blossom is on the way it grows. The flower grows earlier than the leaves. Cherry blossom have many colors. There are white, little pink, and red.
+                
+                Mostly cherry blossoms grow in moist low and highland. A place with a little bit moist and is protected from sunlight is best for its natural habitat. <br/>
+                
+                The main idea of the second paragraph is….</p></div>
+
+            <div class="contain_jawaban_diffrent">
+                <div class="pilihan_jawaban_diffrent">
+                    <input class="input" type="radio" name="soal 5" value="a" id="5a">
+                    <label for="5a">Habitat of Cherry Blossom</label>
+                </div>
+                <div class="pilihan_jawaban_diffrent">
+                    <input class="input" type="radio" name="soal 5" value="b" id="5b">
+                    <label for="5b">Characteristic of Cherry Blossom</label>
+                </div>
+                <div class="pilihan_jawaban_diffrent">
+                    <input class="input" type="radio" name="soal 5" value="c" id="5c">
+                    <label for="5c">Varieties of Cherry Blossom</label>
+                </div>
+                <div class="pilihan_jawaban_diffrent">
+                    <input class="input" type="radio" name="soal 5" value="d" id="5d">
+                    <label for="5d">Beautiful Japanese scene</label>
+                </div>
+            </div>
+            <input class="btn" type="submit" value="Submit">
+        </div>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal MTK</title>
+    <link rel="stylesheet" href="{% static '/soal/soal.css'%}">
+</head>
+<body>
+    <form method="POST">
+        {% csrf_token %}
+        <div class="soalUtama">
+            <h1>Soal 1</h1>
+            <div class="soalnya"><p>Pada tes kemampuan matematika, skor total ditentukan dengan aturan: skor 4 untuk jawaban benar, 
+                skor −2 untuk jawaban salah, dan skor −1 untuk soal tidak dijawab. Dari 50 soal yang diberikan, amir hanya menjawab 48 soal dan memperoleh skor 100. 
+                Banyak soal yang dijawab Amir dengan benar adalah . . . .</p></div>
+            <div class="contain_jawaban">
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal_1" value="a" id="1a">
+                    <label for="1a">25 soal</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal_1" value="b" id="1b">
+                    <label for="1b">33 soal</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal_1" value="c" id="1c">
+                    <label for="1c">40 soal</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal_1" value="d" id="1d">
+                    <label for="1d">48 soal</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="soalUtama">
+            <h1>Soal 2</h1>
+            <div class="soalnya"><p>Apabila Hari Pendidikan Nasional pada tanggal 2 Mei adalah hari selasa, HUT Kemerdekaan RI tanggal 17 Agustus pada tahun yang sama adalah . . . .</p></div>
+            <div class="contain_jawaban">
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal_2" value="a" id="2a">
+                    <label for="2a">hari Rabu</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal_2" value="b" id="2b">
+                    <label for="2b">hari Kamis</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal_2" value="c" id="2c">
+                    <label for="2c">hari Sabtu</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal_2" value="d" id="2d">
+                    <label for="2d">hari Minggu</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="soalUtama">
+            <h1>Soal 3</h1>
+            <div class="soalnya"><p>Seorang pemborong mampu menyelesaikan pekerjaannya selama 49 hari,
+                 dengan 64 pekerja. Karena sesuatu hal pekerjaan itu harus selesai dalam waktu 28 hari. Banyak pekerja yang harus ditambahkan adalah . . . .</p></div>
+            <div class="contain_jawaban">
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 3" value="a" id="3a">
+                    <label for="3a">38 pekerja</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal_3" value="b" id="3b">
+                    <label for="3b">48 pekerja</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal_3" value="c" id="3c">
+                    <label for="3c">102 pekerja</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal_3" value="d" id="3d">
+                    <label for="3d">112 pekerja</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="soalUtama">
+            <h1>Soal 4</h1>
+            <div class="soalnya"><p>Perbandingan permen Aurel , Rani, dan Dhea 5:3:2. Sedangkan jumlah permen Aurel dan Rani 64. Jumlah permen tiga orang tersebut adalah . . . .</p></div>
+            <div class="contain_jawaban">
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal_4" value="a" id="4a">
+                    <label for="4a">72</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal_4" value="b" id="4b">
+                    <label for="4b">80</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal_4" value="c" id="4c">
+                    <label for="4c">88</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal 4" value="d" id="4d">
+                    <label for="4d">108</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="soalUtama">
+            <h1>Soal 5</h1>
+            <div class="soalnya"><p>Suatu gedung perkantoran dengan ukuran 20 meter x 30 meter. Ukuran gedung tersebut pada denah adalah 40 cm x 60 cm. Skala yang digunakan pada denah tersebut adalah . . . .</p></div>
+            <div class="contain_jawaban" id="up">
+                <div class="pilihan_jawaban" id=>
+                    <input class="input" type="radio" name="soal_5" value="a" id="5a">
+                    <label for="5a">1:50</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal_5" value="b" id="5b">
+                    <label for="5b">1:100</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal_5" value="c" id="5c">
+                    <label for="5c">1:500</label>
+                </div>
+                <div class="pilihan_jawaban">
+                    <input class="input" type="radio" name="soal_5" value="d" id="5d">
+                    <label for="5d">1:1000</label>
+                </div>
+            </div>
+            <input class="btn" type="submit" value="Submit">
+        </div>
+    </form>
+
+</body>
+</html>
